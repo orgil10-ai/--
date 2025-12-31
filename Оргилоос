@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>Найздаа 😎</title>
+<style>
+body{
+  background: linear-gradient(#89f7fe,#66a6ff);
+  font-family: Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  width:300px;
+}
+button{
+  background:#66a6ff;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:20px;
+  font-size:16px;
+}
+#msg{display:none;margin-top:20px;font-weight:bold;}
+</style>
+</head>
+
+<body>
+<div class="card">
+  <h3>😏</h3>
+  <p>Энд юу байгаа бол?</p>
+  <button onclick="show()">Дарж үз 😎</button>
+  <div id="msg">Найз минь чи бол 🔥🔥🔥</div>
+</div>
+
+<script>
+function show(){
+  document.getElementById("msg").style.display="block";
+}
+</script>
+</body>
+</html>
